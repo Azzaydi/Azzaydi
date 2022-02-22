@@ -1,0 +1,21 @@
+import javax.swing.JOptionPane;
+
+public class JavaLibs5026211134{
+
+	public static void main(String[] args){
+	
+		String input1 = JOptionPane.showInputDialog("Siapa nama kamu :");
+		String input2 = JOptionPane.showInputDialog("Darimana kamu berasal :");
+		String input3 = JOptionPane.showInputDialog("Dari jurusan :");
+		String input4 = JOptionPane.showInputDialog("Hobinya apa :");
+		String input5 = JOptionPane.showInputDialog("Cita cita :");
+		int input6 = Integer.parseInt(JOptionPane.showInputDialog("Berapa umurmu :"));
+		double input7 = Double.parseDouble(JOptionPane.showInputDialog("Tinggi badan :"));
+		int input8 = Integer.parseInt(JOptionPane.showInputDialog("Berapa suhumu :"));
+		int input9 = input8 + 273;
+		JOptionPane.showMessageDialog(null, "Ini Suhumu dalam farenheit : " + input9);
+		Double input10 = input8 + 273.15;
+		JOptionPane.showMessageDialog(null, "Ini Suhumu dalam kelvin : " + input10);
+
+	  }
+}    
